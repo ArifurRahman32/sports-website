@@ -1,0 +1,48 @@
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 90%;
+
+    }
+    .header{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat (6, 1fr );
+        grid-row-gap:50px ;
+    }
+    .box1 img{
+        position: absolute;
+        top:0px;
+        left:-150px;
+        
+    }
+
+    /*--------------------------
+     player part start  
+--------------------------*/
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        grid-row-gap:30px;
+    }
+    /*--------------------------
+     Highlights  part start  
+--------------------------*/
+
+.highlights{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat (2, 1fr );
+    grid-row-gap:30px;
+}
+.highlights-1 img{
+    width:328px;
+}
+
+/*--------------------------
+     footer part start  
+--------------------------*/
+footer img{
+    width:150px;
+}
+  }

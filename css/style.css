@@ -99,19 +99,104 @@ button a i{
 }
 
 /*--------------------------
-     header part start  
+     player part start  
 --------------------------*/
+#player{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 165px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-row-gap:30px;
+}
+.player-info{
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-info h1{
+    margin: 0px;
+    padding: 10px 0;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
 
+}
+.player-info p{
+    width: 300px;
+    margin:0px;
+    padding: 0px;
+    font-size: 16px;
+    line-height: 26px;
+}
 
 /*--------------------------
-     header part start  
+     Highlights  part start  
 --------------------------*/
+#highlights{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 158px;
+}
+.highlights{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap:60px ;
+}
+.highlights-content h1{
+    color: #0A0826;
+    font-size: 48px;
+    line-height: 60px;
+    margin: 8px 0;
 
+}
+.highlights-content p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0;
+    padding-bottom: 24px;
+
+}
 
 /*--------------------------
-     header part start  
+     footer part start  
 --------------------------*/
+footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 63px;
+}
+.social-icon{
+    text-align: center;
+   
+}
+.fab{
+    width: 32px;
+    height: 32px;
+    background-color: rgba(11, 13, 23, 0.151);
+    border-radius: 50%;
+}
 
+.social-icon i{
+    font-size: 10px;
+    color: #969BAB;
+    line-height: 32px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.social-icon p{
+    margin-top: 20px;
+}
 
 /*--------------------------
      header part start  
