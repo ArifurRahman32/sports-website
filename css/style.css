@@ -1,0 +1,123 @@
+/*---------- font link --------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+
+/*----------------- common css----------- */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+main{
+   display: flex;
+   justify-content: center;
+}
+.container{
+    width: 1050px;
+}
+a{
+    text-decoration: none;
+}
+
+/*--------------------------
+     header part start  
+--------------------------*/
+#header{
+    background-color: #2D25A0;
+    width: 100%;
+    padding-top:135px ;
+    padding-bottom: 114px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.header{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.header-content h1{
+    font-size: 64px;
+    color: #fff;
+    font-weight: bold;
+    margin: 24px 0;
+    line-height: 80px;
+}
+button{
+    padding: 10px 24px;
+    background-color:  #E02C6D;
+    border: 0px;
+ 
+}
+button a, i{  
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height:24px
+}
+button a i{
+    padding-left: 5px;
+}
+.boxes{
+    display: flex;
+    justify-content: flex-end;
+}
+.box1{
+    position: relative;
+    width: 342px;
+    height: 410px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 0px 100px 0px 0px;
+}
+
+@keyframes box {
+    0%   { left:-46px; top:18px;}
+    25%  { left:-10px; top:-20px;}
+    50%  { left:20px; top:-20px;}
+    75%  { left:20px; top:20px;}
+    100% { left:-46px; top:18px;}
+  }
+
+.box1::before{
+    content: "";
+    width: 342px;
+    height: 410px;
+    left: -46px;
+    top: 18px;
+    background: #3DBAFD;
+    border-radius: 0px 100px 0px 0px;
+    position: absolute;
+    animation-name: box;
+    animation-duration: 2.5s;  
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+   
+}
+.box1 img{
+    position: absolute;
+    top:63px;
+    left:-350px;
+    
+}
+
+/*--------------------------
+     header part start  
+--------------------------*/
+
+
+/*--------------------------
+     header part start  
+--------------------------*/
+
+
+/*--------------------------
+     header part start  
+--------------------------*/
+
+
+/*--------------------------
+     header part start  
+--------------------------*/
+
+
+/*--------------------------
+     header part start  
+--------------------------*/
