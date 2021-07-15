@@ -6,10 +6,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-main{
-   display: flex;
-   justify-content: center;
-}
+
 .container{
     width: 1050px;
 }
@@ -100,7 +97,7 @@ button a i{
 .box1 img{
     position: absolute;
     top:63px;
-    left:-350px;
+    left:-250px;
     
 }
 

@@ -9,6 +9,9 @@
     /*--------------------------
      header part start  
 --------------------------*/
+#header{
+    width: 100%;
+}
     .header{
         display:grid;
         grid-template-columns: repeat(1, 1fr);
@@ -18,7 +21,6 @@
     .box1 img{
         position: absolute;
         top:0px;
-        left:-150px;
         
     }
 
